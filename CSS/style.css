@@ -1,0 +1,94 @@
+body{
+    background-image: url(../Images/HeroHeader.png);
+    background-repeat: no-repeat;
+}
+.header{
+    height: 250px;
+    max-height: 500px;
+    background-image: linear-gradient(to bottom, rgba(29, 138, 157, 1), rgba(29,138,157,0));
+background-repeat: no-repeat;
+background-position: bottom;
+}
+.header img{
+    margin-top: -20px;
+    margin-left: 15px;  
+}
+.header h1{
+    font-family: 'Playball', cursive;
+    font-size: 60px;
+    margin-left: 235px;
+    margin-top: -144px;
+    padding: 10;
+    color: #FFFFFF;
+
+}
+.header ul{
+    font-family: 'Gabriela', serif;
+    font-size: 25px;
+    list-style-type: none;
+    margin-top: -50px;
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    color: #FFFFFF;
+}
+.header li{
+    float: left;
+    padding: 14px 16px;
+}
+.heroheader h2{
+    font-family: 'Playball', cursive;
+    font-size: 95px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0%;
+}
+.heroheader p{
+    font-family: 'Gabriela', serif;
+    margin-top: -5%;
+    font-size: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0%;
+}
+.resume{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 42%;
+    margin-top: -50px;
+    width: 150px;
+    text-align: center;
+    color: #1D8A9D;
+    outline: 1px solid #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.footer{
+    background-color: #1D8A9D;
+    background-size: cover;
+    background-repeat: initial;
+}
+.footer h1{
+    font-family: 'Playball', cursive;
+    font-size: 60px;
+    margin-left: 230px;
+    margin-top: -150px;
+    padding: 10;
+    color: #FFFFFF;
+}
+
+.footer a{
+    font-family: 'Gabriela', serif;
+    font-size: 25px;
+    list-style-type: none;
+    margin-top: -50px;
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    color: #FFFFFF;
+}
