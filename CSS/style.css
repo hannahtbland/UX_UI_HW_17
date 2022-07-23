@@ -1,13 +1,14 @@
 body{
     background-image: url(../Images/HeroHeader.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .header{
     height: 250px;
     max-height: 500px;
     background-image: linear-gradient(to bottom, rgba(29, 138, 157, 1), rgba(29,138,157,0));
-background-repeat: no-repeat;
-background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 .header img{
     margin-top: -20px;
@@ -70,25 +71,22 @@ background-position: bottom;
 .footer{
     background-color: #1D8A9D;
     background-size: cover;
-    background-repeat: initial;
 }
 .footer h1{
     font-family: 'Playball', cursive;
     font-size: 60px;
     margin-left: 230px;
     margin-top: -150px;
-    padding: 10;
+    padding: 10px 20px;
     color: #FFFFFF;
 }
 
 .footer a{
     font-family: 'Gabriela', serif;
-    font-size: 25px;
-    list-style-type: none;
-    margin-top: -50px;
-    margin-right: 20px;
+    font-size: 30px;
     padding: 0;
     overflow: hidden;
     float: right;
     color: #FFFFFF;
+    padding: 14px 16px;
 }
