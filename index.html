@@ -1,37 +1,120 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Portfolio</title>
-        <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">    
-        <link href="CSS/style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <section class="header">
-            <img src="Images/Logo.png">
-            <h1>Hannah Bland</h1>
-            <ul>
-                <li>About</li>
-                <li>Skill</li>
-                <li>Work</li>
-                <li>Contact</li>
-            </ul> 
-        </section>
-        <section class="heroheader">
-          <h2>Welcome, I'm Hannah Bland!</h2>
+<head>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="toppg">
+    <header>
+        <img src="Images/Footerlogo.png">
+        <ul>
+            <li>About</li>
+            <li>Skill</li>
+            <li>Work</li>
+            <li>Contact</li>
+        </ul> 
+    </header>
+    <section class="hero">
+        <h2>Welcome, I'm Hannah Bland!</h2>
           <p>Recent Grad In UX Design. <br> Currently a Technical Support <br> Analyst Lead.</p>
-          <div class="resume">Resume</div>
-        </section>
-        <div class="footer">
-            <img src="Images/Logo.png">
-            <h1>Hannah Bland</h1>
-             <div class="text">
-                <a>About</a>
-                <a>Skills</a>
-                <a>Work</a>
-                <a>Contact</a>
+          <button class="resume">Resume</button>
+    </section>
+    </div>
+    <!--Case Study/ Work Section-->
+    <section class="work">
+        <h2>Work</h2>
+        <div class="workGrid">
+            <div class="blocal">
+            <div class="blocalimg">
+              <img src="Images/blocal otf.png">
             </div>
-         </div>
-    </body>
+            <div class="content1">
+              <h3>BLOCAL</h3>
+              <p>All local resturants at your finger tip. Gives users that are in a rush the oppurtunity to have the app choose for them. Either filling out their prefrences or go completely in the dark with the On the Fly Feature.</p>
+              <button class="project">View Project</button>
+            </div>
+            </div>
+            <div class="tripit">
+            <div class="tripitimg">
+              <img src="Images/tripit setup.png">
+            </div>
+            <div class="content2">
+              <h3>TripIt</h3>
+              <p>Planning made easy no matter the unexpected obstacle! TripIt is used to help users plan their trips all in one place. Showing them what is around where they are staying ahead of time or when they get there.</p>
+              <button class="project">View Project</button>
+            </div>
+            </div>
+            <div class="cwwc">
+            <div class="cwwcimg">
+              <img src="Images/cwwc home.png">
+            </div>
+            <div class="content3">
+              <h3>Colorado Wolves & Wildlife Center Redesign</h3>
+              <p>Colorado Wolves & Wildlife Center is a non-profit located in Colorado to help spread awarness of wolves and wildlife. In our redesign we focused on their donations page by combining the donate and wishlist page into one.</p>
+              <button class="project">View Project</button>
+            </div>
+            </div>
+          </div>
+    </section>
+    <!--Skills Section-->
+    <section class="skills">
+        <h2>UX/UI Skills</h2>
+        <div class="skillsFlex">
+            <div class="ur">
+                
+              <div class="bgt">
+                 <h3>User Research</h3>
+                    <p>My approach is to connect with the user first before connecting interviews. I like to get to know the user before the interview so they feel comfortable.</p>
+              </div>
+            </div>
+            
+            <div class="ui">
+                
+              <div class="bgt">
+                <h3>User Interface Design</h3>
+                    <p>Be able to take all the user stories and research to build a user interface that the user will want to use by user testing the designs.</p>
+              </div>
+            </div>
+            <div class="wd"> 
+                
+                <div class="bgt">
+                    <h3>Web Developmet</h3>
+                    <p>Using my resources and understand what the front end development is doing. By testing JavaScript and CSS to understand what different elements do & interact with eachother to create a site.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Connect Section-->
+    <section class="connect">
+        <h2>Lets Connect</h2>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputName">Name</label>
+              <input type="Name" class="form-control" id="exampleInputName" aria-describedby="nameHelp"
+                placeholder="Enter Name">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+                <label for="exampleInputmessgae">Message</label>
+              <input type="message" class="form-control" id="exampleInputmessage" aria-describedby="messageHelp"
+                placeholder="Enter a Message">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </footer>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+        <div class="footer">
+            <figure>
+            <img src="Images/Footerlogo.png">
+            <figcaption>Copyright 2020</figcaption>
+            </figure>
+    </section>
+</body>
 </html>
